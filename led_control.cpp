@@ -42,7 +42,7 @@ bool RUNNING = true;
       pinMode(yellow, OUTPUT);
       pinMode(green, OUTPUT); 
       
-      int time = 135; // interval at which a pin is turned HIGH/LOW
+      int time = 200; // interval at which a pin is turned HIGH/LOW
       
       while(1) {
         
