@@ -6,7 +6,7 @@ const int pwmPin = 18; // PWM LED - Broadcom pin 18, P1 pin 12
 const int ledPin = 23; // Regular LED - Broadcom pin 23, P1 pin 16
 const int butPin = 17; // Active-low button - Broadcom pin 17, P1 pin 11
 
-const int pwmValue = 1; // Use this to set an LED brightness
+const int pwmValue = 1; 
 unsigned int PrevTime;		// Temporary variable that holds the previous millis value
 
 
