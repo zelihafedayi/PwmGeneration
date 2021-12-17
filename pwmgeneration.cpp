@@ -34,9 +34,9 @@ int main(void)
             pwmWrite(pwmPin, 1024 - pwmValue); // PWM LED at dim setting
             // Do some blinking on the ledPin:
             digitalWrite(ledPin, HIGH); // Turn LED ON
-            delay(75); // Wait 75ms
+            delay(1); 
             digitalWrite(ledPin, LOW); // Turn LED OFF
-            delay(75); // Wait 75ms again
+            delay(1); 
         }
 
        }
