@@ -1,0 +1,6 @@
+appName: Led
+logLevel: WARN
+
+ledPeriod:
+  s : 0.2
+  hz : 1
